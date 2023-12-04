@@ -252,7 +252,7 @@ def on_ui_tabs():
 
                 run_button.click(
                     fn=sliders_train_forward,
-                    _js="ask_for_style_name",
+                    _js="ask_for_sliders_name",
                     inputs=[
                         sd_model_checkpoint,
                         dummy_component,
