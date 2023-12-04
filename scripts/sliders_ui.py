@@ -133,8 +133,8 @@ def on_ui_tabs():
                             )
 
                             positive_prompt = gr.Textbox(
-                                label="Positive prompt. (Such as: old person)",
-                                value="old person",
+                                label="Positive prompt. (Such as: old)",
+                                value="old",
                             )
 
                         with gr.Row():
@@ -144,8 +144,8 @@ def on_ui_tabs():
                             )
 
                             unconditional_prompt = gr.Textbox(
-                                label="Unconditional prompt. (Such as: young person)",
-                                value="young person",
+                                label="Unconditional prompt. (Such as: young)",
+                                value="young",
                             )
 
                         text_sliders_note = gr.Markdown(
